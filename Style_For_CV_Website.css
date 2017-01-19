@@ -1,0 +1,103 @@
+.navbar{
+  margin-bottom: 0px;
+
+}
+.page-header{
+  margin-top: 0px;
+
+}
+.btn{
+  border-radius: 0px;
+  margin-left: 8%;
+
+}
+.btn-group{
+  margin-left: 30%;
+
+}
+.form-group{
+
+  margin-bottom: 15px;
+  margin-left: 20%;
+  margin-right: 15%;
+  margin-top:30px;
+}
+.form-control{
+  display:inline;
+  width: 50%;
+
+}
+label{
+  display:inline;
+
+}
+#containerFluid{
+
+  /*padding:0; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+#loginContainer{
+  margin-top: 40px;
+  text-align: center;
+
+}
+#loginFormContainer{
+  margin-left: 25%;
+  margin-right: 25%;
+  border-style: solid;
+  border-color: black;
+
+}
+#MainContainerFluid{
+
+  padding-left:0;
+  padding-right:0;
+}
+#ButtonsContainers{
+
+  border-style: solid;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-right: 25%;
+    border-color: black;
+
+}
+#Title{
+  /*margin-left: 20%;*/
+  text-align: center;
+}
+#employerButton{
+
+  margin-left: 10px;
+}
+#studentButton{
+      margin-left: 15px;
+
+}
+#exampleInputEmail1{
+  display: inline;
+    width: 50%;
+    margin-left: 50px;
+}
+#exampleInputPassword1{
+  display: inline;
+    width: 50%;
+    margin-left: 80px;
+
+}
+#newUserLink{
+
+      margin-left: 43%;
+
+}
+#buttonCreate{
+  margin-bottom: 3%;
+  margin-left: 49%;
+
+}
+/*h1{
+  margin-left: 40%;
+
+}*/
