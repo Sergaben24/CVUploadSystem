@@ -1,0 +1,196 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    margin-top: 0px;
+    margin-right: 20px;    
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 5px;
+}
+.panel-group {
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+h1.loginCss{
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
+a.aViewButtons{
+    text-decoration: none;   
+}
+a.aLogout{
+
+    text-decoration: none;
+}
+.panel-body{
+    padding:0;
+
+}
+.row{
+
+    margin-left: 0;
+    margin-right: 0;
+
+}
+.navbar{
+    margin-bottom: 0px;
+
+}
+.page-header{
+    margin-top: 0px;
+
+}
+.btn{
+    border-radius: 0px;
+
+
+}
+
+
+.form-group{
+
+    margin-bottom: 15px;
+    margin-left: 20%;
+    margin-right: 15%;
+    margin-top:30px;
+}
+.form-control{
+    display:inline;
+    width: 50%;
+
+}
+label{
+    display:inline;
+
+}
+#categoryColumn{
+
+    border-style: solid;
+    margin-left: 20px;
+    max-width: 47%;
+
+}
+#viewColumn{
+
+    border-style: solid;
+    margin-left: 58px;
+    max-width: 47%;
+
+}
+#viewCV{
+
+    display: flex;
+    padding: 15px;
+}
+#containerFluid{
+    /*<!--       Kenneth Was Here-->*/
+    padding-left:0px;
+    margin-bottom: 20px;
+    padding-right: 0;
+
+}
+div#mainTitle{
+
+    padding-left:80px;
+    margin-top:5%;
+    /*margin-bottom: 30px;*/
+}
+#loginContainer{
+    margin-top: 40px;
+    text-align: center;
+
+}
+#loginFormContainer{
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    border-color: black;
+
+}
+#MainContainerFluid{
+
+    padding-left:0;
+    padding-right:0;
+}
+#ButtonsContainers{
+
+    border-style: solid;
+    margin-left: 25%;
+    margin-top: 3%;
+    margin-right: 25%;
+    border-color: black;
+
+}
+#Title{
+    /*margin-left: 20%;*/
+    text-align: center;
+}
+#categoriesTitle{
+
+    padding-left: 40%;
+    padding-bottom: 20px;
+
+}
+#viewTitle{
+    padding-left: 40%;
+    padding-bottom: 20px;
+
+}
+#PasswordTitle{
+    padding-left: 30%;
+    padding-bottom: 20px;
+
+}
+#employerButton{
+
+    margin-left: 10px;
+}
+#studentButton{
+    margin-left: 15px;
+
+}
+#exampleInputEmail1{
+    display: inline;
+    width: 50%;
+    margin-left: 50px;
+}
+#exampleInputPassword1{
+    display: inline;
+    width: 50%;
+    margin-left: 80px;
+
+}
+#newUserLink{
+
+    margin-left: 43%;
+
+}
+#buttonCreate{
+    margin-bottom: 3%;
+    margin-left: 49%;
+
+}
+#viewCenterPanel{
+
+    margin-left: 35%;    
+}
+#FooterTitle{
+    padding-left: 45%;
+    margin-bottom: 0;
+    padding-bottom: 30px;
+}
+#footer{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+button#buttonCss {
+    margin-left: 57%;
+}
+
+/*h1{
+margin-left: 40%;
+
+}*/
