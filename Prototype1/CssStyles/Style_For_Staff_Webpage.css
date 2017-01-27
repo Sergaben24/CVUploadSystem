@@ -9,10 +9,6 @@ p{
     margin-left: 0px;
     padding-top: 5px;
 }
-.panel-group {
-    margin-bottom: 20px;
-    padding-top: 30px;
-}
 
 h1.loginCss{
     margin-left: 35%;
@@ -22,18 +18,22 @@ a.aViewButtons{
     text-decoration: none;   
 }
 a.aLogout{
-
+    
     text-decoration: none;
 }
 .panel-body{
     padding:0;
-
+    
+}
+.panel-group{
+    
+    border-style: solid;
 }
 .row{
-
+    
     margin-left: 0;
     margin-right: 0;
-
+    
 }
 .navbar{
     margin-bottom: 0px;
@@ -45,10 +45,9 @@ a.aLogout{
 }
 .btn{
     border-radius: 0px;
-
+    white-space: inherit;
 
 }
-
 
 .form-group{
 
@@ -66,38 +65,32 @@ label{
     display:inline;
 
 }
-#categoryColumn{
-
-    border-style: solid;
-    margin-left: 20px;
-    max-width: 47%;
-
+#mainTitle{
+    
+    margin-top: 3%;
 }
-#viewColumn{
 
-    border-style: solid;
-    margin-left: 58px;
-    max-width: 47%;
-
-}
 #viewCV{
-
+    
     display: flex;
     padding: 15px;
 }
 #containerFluid{
-    /*<!--       Kenneth Was Here-->*/
+
     padding-left:0px;
     margin-bottom: 20px;
     padding-right: 0;
+    margin-top: 3%;
 
 }
-div#mainTitle{
+#containerFluidView{
 
-    padding-left:80px;
-    margin-top:5%;
-    /*margin-bottom: 30px;*/
+    padding-left:0px;
+    margin-bottom: 17.9%;
+    padding-right: 0;
+
 }
+
 #loginContainer{
     margin-top: 40px;
     text-align: center;
@@ -108,7 +101,7 @@ div#mainTitle{
     margin-right: 25%;
     border-style: solid;
     border-color: black;
-
+/*<!--       Kenneth Was Here-->*/
 }
 #MainContainerFluid{
 
@@ -129,20 +122,21 @@ div#mainTitle{
     text-align: center;
 }
 #categoriesTitle{
-
-    padding-left: 40%;
+    
+    
     padding-bottom: 20px;
-
+    text-align: center;
 }
 #viewTitle{
-    padding-left: 40%;
+   
     padding-bottom: 20px;
-
+    text-align: center;
+    
 }
 #PasswordTitle{
     padding-left: 30%;
     padding-bottom: 20px;
-
+    
 }
 #employerButton{
 
@@ -174,8 +168,8 @@ div#mainTitle{
 
 }
 #viewCenterPanel{
-
-    margin-left: 35%;    
+    
+    margin-left: 25%;    
 }
 #FooterTitle{
     padding-left: 45%;
@@ -186,8 +180,11 @@ div#mainTitle{
     margin-bottom: 0;
     padding-bottom: 0;
 }
-button#buttonCss {
-    margin-left: 57%;
+#displayPass{
+    margin-top: 20px;
+    height: 80px;
+    text-align: center;
+    
 }
 
 /*h1{

@@ -41,7 +41,7 @@
          <div class="form-group" id="loginPassword">
            <label for="exampleInputPassword1">Password:</label> <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
          </div>
-         <form action="../Employer/EmployerCVpage.php"   >
+         <form action="../Employer/EmployerCVpage.php">
              <button type="submit" class="btn btn btn-default" id="buttonCreate"> Log In </button>
         </form>
       </div>

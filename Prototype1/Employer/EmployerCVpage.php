@@ -8,171 +8,127 @@
         <title>Logout Page</title>
     </head>
     <body>
-        <!--<nav class="navbar navbar-inverse">-->
         <div class="container-fluid" id="containerFluid">
-
             <!--	<a class="navbar-brand">-->
-            <div class ="container-fluid" id="containerFluid" >
-                <div class="btn-group btn-group-justified" role="group" aria-label="...">
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn btn-success btn-lg" onsubmit="StudentLogin.php">Home</button>
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
                     </div>
-                    <div class="btn-group" role="group">
-                        <button type="button" class="btn btn btn-success btn-lg" onsubmit="#">Account Details</button>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <a href="StudentLogin.php" class="aLogout"><button type="button" class="btn btn btn-success btn-lg" onsubmit="#">Logout</button></a>
-                    </div>
-                    <div class="btn-group" role="group">
-                        <a href="StudentLogin.php" class="aLogout"><button type="button" class="btn btn btn-success btn-lg" onsubmit="#">Contact Us</button></a>
-                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="../index.php">Logout</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact US</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
                 </div>
-                <!--       Kenneth Was Here-->
-                <!-- <form action="StudentLogin.php">
-<button type="submit" class="btn btn btn-success btn-lg" id="buttonCreate"> Home </button>
-</form>
-<form action="StudentLogin.php">
-<button type="submit" class="btn btn btn-success btn-lg" id="buttonCreate"> Account Details </button>
-</form>
-<form action="StudentLogin.php">
-<button type="submit" class="btn btn btn-success btn-lg" id="buttonCreate"> Generate Password </button>
-</form>
-
-<!--<li type="button" class="btn btn-success btn-lg">Logout</li>
-
-<form action="StudentLogin.php">
-<button type="submit" class="btn btn btn-success btn-lg" id="buttonCreate"> Logout </button>
-</form> -->
+            </nav>
+        </div>
+        <div class="container-fluid" id="containerFluid">
+            <div class="container-fluid" id="mainTitle">
                 <h1 id="Title">Welcome to KUtalent CV System!</h1>
             </div>
             <div class ="container-fluid" id="containerFluid" >
-                <div class = "panel-group">
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-6 col-md-8" id="categoryColumn">
-                            <div class ="container-fluid" id="containerFluid">
-                                <h2 id="categoriesTitle"> Categories</h2>
-                                <div class = "panel-group">
-                                    <div class ="panel panel default">
-                                        <!--	<th colspan="3">Categories</th>-->
-                                        <div class="panel-body">
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Computer Science</button>
-                                                <!--<p>Category Name<span class></span>!</p>-->
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Computer Science(Network Communications)</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Software Engineering</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Electrical Engineering</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Mechanical Engineering</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Information Systems</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Computer Science(With Buisness Studies)</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Computer Science(Games and Development)</button>
-                                            </div>
-                                        </div>
-                                        <div class="panel-body" >
-                                            <div id="button">
-                                                <button type="button" class="btn btn-default btn-block">Category Name</button>
-                                            </div>
+                <div class="row">
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ></div>
+                    <div class="col-xs-6 col-sm-3 col-md-3 col-lg-3" id="categoryColumn">
+                        <div class ="container-fluid" id="containerFluid">
+                            <h2 id="categoriesTitle"> Categories</h2>
+                            <div class = "panel-group">
+                                <div class ="panel panel default">
+                                    <!--	<th colspan="3">Categories</th>-->
+                                    <div class="panel-body">
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Computer Science</button>
+                                            <!--<p>Category Name<span class></span>!</p>-->
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--<div class="col-sm-4" style="background-color:lavenderblush;"></div>-->
-                        <div class="col-xs-12 col-sm-6 col-md-8" id="viewColumn">
-                            <div class ="container-fluid" id="containerFluidView">
-                                <h2 id="viewTitle"> View CV</h2>
-                                <div class = "panel-group">
-                                    <div class ="panel panel default" id="viewCenterPanel">
-                                        <!--	<th colspan="3">View CVs</th>-->
-                                        <div class="panel-body" id="viewCV">
-                                            <p>Description</p>
-                                            <div id="button">
-                                                <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-                                            </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Computer Science(Network Communications)</button>
                                         </div>
-                                        <div class="panel-body" id="viewCV">
-                                            <p>Description</p>
-                                            <div id="button">
-                                                <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-                                            </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Software Engineering</button>
                                         </div>
-                                        <div class="panel-body" id="viewCV">
-                                            <p>Description</p>
-                                            <div id="button">
-                                                <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-                                            </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Electrical Engineering</button>
                                         </div>
-                                        <!--<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>
-<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>
-<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>
-<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>
-<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>
-<p>Description</p>
-<div id="button">
-<a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
-</div>-->
-
-
-
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Mechanical Engineering</button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Information Systems</button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Computer Science(With Buisness Studies)</button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Computer Science(Games and Development)</button>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" >
+                                        <div id="button">
+                                            <button type="button" class="btn btn-default btn-block">Category Name</button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div> 
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="viewColumn">
+                        <div class ="container-fluid" id="containerFluidView">
+                            <h2 id="viewTitle"> View CV</h2>
+                            <div class = "panel-group">
+                                <div class ="panel panel default" id="viewCenterPanel">
+                                    <!--	<th colspan="3">View CVs</th>-->
+                                    <div class="panel-body" id="viewCV">
+                                        <p>Description</p>
+                                        <div id="button">
+                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" id="viewCV">
+                                        <p>Description</p>
+                                        <div id="button">
+                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                        </div>
+                                    </div>
+                                    <div class="panel-body" id="viewCV">
+                                        <p>Description</p>
+                                        <div id="button">
+                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" ></div>
+                </div>
             </div> 
 
         </div>
         <div class="jumbotron" id="footer">
             <h2 id="FooterTitle">Copyright(c) Group 13</h2>     
         </div>    
-        <!--	<div id="footer">
-<div id="button">
-<a href="UploadCVPage.php"><button type="button" class="btn btn-default btn-block">Upload CV</button></a>
-</div>
-</div>-->
 
     </body>
 </html>
