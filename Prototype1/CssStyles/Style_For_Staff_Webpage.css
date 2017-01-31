@@ -18,26 +18,37 @@ a.aViewButtons{
     text-decoration: none;   
 }
 a.aLogout{
-    
+
     text-decoration: none;
 }
 .panel-body{
     padding:0;
-    
+
 }
 .panel-group{
-    
+
     border-style: solid;
 }
 .row{
-    
+
     margin-left: 0;
     margin-right: 0;
-    
+
 }
 .navbar{
     margin-bottom: 0px;
+    border-radius: 0px;
+    border: 0;
 
+}
+.navbar-default {
+
+    background-color: #78ae4e;
+
+}
+.navbar-default .navbar-nav>li>a{
+
+    color:black;
 }
 .page-header{
     margin-top: 0px;
@@ -61,26 +72,40 @@ a.aLogout{
     width: 50%;
 
 }
+ul.nav.navbar-nav.navbar-right{
+    font-size: large;
+
+}
 label{
     display:inline;
 
 }
+#navBar{
+
+    height: 90px;
+
+
+}
+#navbar{
+
+    margin-top: 20px;
+
+}
 #mainTitle{
-    
+
     margin-top: 3%;
 }
 
-#viewCV{
-    
+.viewCV{
+
     display: flex;
     padding: 15px;
 }
-#containerFluid{
+.container-fluid{
 
     padding-left:0px;
     margin-bottom: 20px;
     padding-right: 0;
-    margin-top: 3%;
 
 }
 #containerFluidView{
@@ -101,7 +126,7 @@ label{
     margin-right: 25%;
     border-style: solid;
     border-color: black;
-/*<!--       Kenneth Was Here-->*/
+    /*<!--       Kenneth Was Here-->*/
 }
 #MainContainerFluid{
 
@@ -122,21 +147,21 @@ label{
     text-align: center;
 }
 #categoriesTitle{
-    
-    
+
+
     padding-bottom: 20px;
     text-align: center;
 }
 #viewTitle{
-   
+
     padding-bottom: 20px;
     text-align: center;
-    
+
 }
 #PasswordTitle{
     padding-left: 30%;
     padding-bottom: 20px;
-    
+
 }
 #employerButton{
 
@@ -146,17 +171,7 @@ label{
     margin-left: 15px;
 
 }
-#exampleInputEmail1{
-    display: inline;
-    width: 50%;
-    margin-left: 50px;
-}
-#exampleInputPassword1{
-    display: inline;
-    width: 50%;
-    margin-left: 80px;
 
-}
 #newUserLink{
 
     margin-left: 43%;
@@ -167,24 +182,42 @@ label{
     margin-left: 49%;
 
 }
+@media (min-width:768px){
+    img.resize{
+        width:60px;
+        height:60px;
+     }
+}
+@media (max-width: 768px){
+    #viewCenterPanel{
+        margin-left: 0;
+    }  
+
+}
 #viewCenterPanel{
-    
-    margin-left: 25%;    
-}
-#FooterTitle{
-    padding-left: 45%;
-    margin-bottom: 0;
-    padding-bottom: 30px;
-}
-#footer{
-    margin-bottom: 0;
-    padding-bottom: 0;
+    margin-left: 35%;
+}  
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*height: 60px;*/
+    width: 100%;
+    background-color: #F8F8F8;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
 }
 #displayPass{
     margin-top: 20px;
     height: 80px;
     text-align: center;
-    
+
+}
+#logoImage{
+
+    position: absolute;
+    top: 20px;
 }
 
 /*h1{

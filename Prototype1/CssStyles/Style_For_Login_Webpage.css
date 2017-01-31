@@ -20,7 +20,9 @@ a.aViewButtons{
 }
 .page-header{
     margin: 0;
-
+    width: 100%;
+    text-align: center;
+    border-bottom: transparent;
 }
 .btn{
     border-radius: 0px;
@@ -83,7 +85,6 @@ label{
 #Title{
 
     height: 100px;
-    text-align: center;
     background-color: #78ae4e;
 
 }
@@ -115,6 +116,11 @@ label{
     margin-bottom: 3%;
     margin-left: 49%;
 
+}
+#imageContainer{
+    margin-left: 200px;
+    margin-top: 30px;
+    position: absolute;
 }
 /*h1{
 margin-left: 40%;
