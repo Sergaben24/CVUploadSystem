@@ -1,12 +1,16 @@
+
 <?php
 
-
+//global variables
 $holdFPass="";
 $tempPassword ="";
 $tempPasswordII="";
 $holdSPass="";
 $finalPass="";
+//-----------------------
 
+//------------------------------------------------------
+// This function is used to generate a temporary password
 function generateTempPass() {
 
     $ranNum = mt_rand(0,51);
@@ -22,22 +26,11 @@ function generateTempPass() {
     }
     return $tempPassword;    
 
-    //echo $char;
-    //echo $nAscii;
-    //echo $symChars;
-    //echo $password;
-    //return $password;
-    /*$password ="";
-    $ASCIII =0;
-    $ASCIII2 = 0;
-    $symChars= "";
-    $choppedLett = "";*/
+} 
+//--------------------------------------------------------
 
-    /*
-    $arrChars = str_split($arrayOfChars);
-    $arrSym = str_split($arrayOfSym);*/
-
-}
+//--------------------------------------------------------------
+// this function is used to generate another temporary password
 function generateTempPassII(){
 
     $ranNum = mt_rand(0,51);
@@ -53,7 +46,11 @@ function generateTempPassII(){
     }
     return $tempPasswordII;
 
-}
+} 
+//------------------------------------------------------------
+
+//-----------------------------------------------------------------
+// this function mix both of the temporary password generated before
 function generatePass(){
 
     $holdFPass = generateTempPass();
@@ -62,11 +59,16 @@ function generatePass(){
     echo $finalPass;
 
 }
-function get_char_from_arrayChars($str,$l = 0,$selChar,$boolean) {
+//--------------------------------------------------------------
+
+//------------------------------------------------------------------------------------
+// this function has been used to split a string of letters in single characters and put them in an array
+// the function has not been created by me, it is and addaptation of http://stackoverflow.com/questions/9438158/split-utf8-string-into-array-of-chars by hakre
+function get_char_from_arrayChars($str,$l = 0,$selChar,$boolean) {  
+                                                                                       
     if ($l > 0) {
         $nArray = array();
         $len = mb_strlen($str, "UTF-8");
-        /*$len = mb_strlen($str2, "UTF-8*/
         if($boolean == true)
         {
             for ($i = 0; $i < $len; $i += $l) {
@@ -85,12 +87,16 @@ function get_char_from_arrayChars($str,$l = 0,$selChar,$boolean) {
         }
     }
 
-}
+} 
+//--------------------------------------------------------------------
+
+//------------------------------------------------------------------------------------
+// this function has been used to split a string of symbols in single characters and put them in an array
+// the function has not been created by me, it is and addaptation of http://stackoverflow.com/questions/9438158/split-utf8-string-into-array-of-chars by hakre                                              
 function get_char_from_arraySym($str,$l = 0,$selChar) {
     if ($l > 0) {
         $nArray = array();
         $len = mb_strlen($str, "UTF-8");
-        /*$len = mb_strlen($str2, "UTF-8");*/
         for ($i = 0; $i < $len; $i += $l) {
             $nArray[] = mb_substr($str, $i, $l, "UTF-8");
 
@@ -99,8 +105,11 @@ function get_char_from_arraySym($str,$l = 0,$selChar) {
     }
 
 }
+//-----------------------------------
 
+//------------------------------
+//call to the generatePass
 generatePass();
-
+//------------------
 
 ?>

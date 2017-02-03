@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="../JSscripts/JQueryScripts.js"></script>
-        <link type="text/css" rel="stylesheet" href="../CssStyles/Style_For_SignUpPage.css">
+        <link type="text/css" rel="stylesheet" href="../CssStyles/SignUpPage.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <title>CV Kingston University</title>
     </head>

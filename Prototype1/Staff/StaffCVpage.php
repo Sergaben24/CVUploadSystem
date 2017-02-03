@@ -6,7 +6,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
         
-        <link type="text/css" rel="stylesheet" href="../CssStyles/Style_For_Staff_Webpage.css">
+        <link type="text/css" rel="stylesheet" href="../CssStyles/optimisedMainPage.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
         <title>CV Kingston University</title>
     </head>
@@ -108,19 +108,19 @@
                             <div class ="panel panel default" id="viewCenterPanel">
                                 <!--	<th colspan="3">View CVs</th>-->
                                 <div class="panel-body viewCV">
-                                    <p>Description</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugiat possimus, distinctio cumque, hic odio laborum eum delectus odit illo aspernatur? Alias provident ab animi dolores ea accusamus, molestiae perspiciatis.</p>
                                     <div >
                                         <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                     </div>
                                 </div>
                                 <div class="panel-body viewCV">
-                                    <p>Description</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugiat possimus, distinctio cumque, hic odio laborum eum delectus odit illo aspernatur? Alias provident ab animi dolores ea accusamus, molestiae perspiciatis.</p>
                                     <div >
                                         <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                     </div>
                                 </div>
                                 <div class="panel-body viewCV">
-                                    <p>Description</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugiat possimus, distinctio cumque, hic odio laborum eum delectus odit illo aspernatur? Alias provident ab animi dolores ea accusamus, molestiae perspiciatis.</p>
                                     <div >
                                         <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                     </div>

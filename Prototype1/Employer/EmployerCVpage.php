@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
-        <link type="text/css" rel="stylesheet" href="../CssStyles/Style_For_Employer_Webpage.css">
+        <link type="text/css" rel="stylesheet" href="../CssStyles/optimisedMainPage.css">
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
         <title>Logout Page</title>
@@ -13,7 +13,7 @@
     <body style="margin: 0 0 120px;">
 
         <!--	<a class="navbar-brand">-->
-        <nav class="navbar navbar-inverse" >
+        <nav class="navbar navbar-default" >
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
@@ -107,21 +107,21 @@
                                 <div class ="panel panel default" id="viewCenterPanel">
                                     <!--	<th colspan="3">View CVs</th>-->
                                     <div class="panel-body viewCV">
-                                        <p>Description</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique fugiat possimus, distinctio cumque, hic odio laborum eum delectus odit illo aspernatur? Alias provident ab animi dolores ea accusamus, molestiae perspiciatis.</p>
                                         <div>
-                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                            <a href="EmployerViewCV.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                         </div>
                                     </div>
                                     <div class="panel-body viewCV">
-                                        <p>Description</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus modi delectus error! Expedita optio veritatis, sunt, consectetur quasi officia, fugiat obcaecati necessitatibus natus repudiandae vitae pariatur soluta adipisci. Itaque, ipsam!</p>
                                         <div>
-                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                            <a href="EmployerViewCV.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                         </div>
                                     </div>
                                     <div class="panel-body viewCV">
-                                        <p>Description</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto similique reprehenderit, iste sint animi veniam praesentium sit officia magni eaque non assumenda perspiciatis ex accusantium, numquam maiores excepturi nesciunt neque.</p>
                                         <div>
-                                            <a href="CVview_Page.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
+                                            <a href="EmployerViewCV.php" class="aViewButtons"><button type="button" class="btn btn-default btn-block">View CV</button></a>
                                         </div>
                                     </div>
                                 </div>

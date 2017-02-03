@@ -7,7 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="Stylesheet"  href="../CssStyles/Style_For_Login_Webpage.css">
+        <link rel="Stylesheet"  href="../CssStyles/Login.css">
         <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -38,7 +38,7 @@
                 <h1 id="changeTitle">Talent Staff Login</h1>
                 <div class="containerFluid" id="loginFormContainer">
                     <div class="form-group" id="loginUsername">
-                        <label for="StudentEmail" >Email address:</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                        <label for="StudentEmail" >KNumber:</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
                     </div>
                     <div class="form-group" id="loginPassword">
                         <label for="exampleInputPassword1">Password:</label> <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
